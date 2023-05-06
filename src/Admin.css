@@ -1,0 +1,61 @@
+h1 {
+    border-bottom: 4px solid black;
+    width: max-content;
+    margin-left: 1.5em;
+}
+.admin-options {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.admin-options > div {
+    width: 33%;
+    border-radius: 15px;
+    color: #4D4D4D;
+    font-size:20px;
+    padding: 20px 45px;
+    margin: 1em 0;
+}
+.admin-options h4 {
+    margin-top: 0;
+    text-align: center;
+    text-decoration: underline;
+}
+.add-doctor {
+    background: #FDFBB3;
+}
+.add-medicine {
+    background: #FFE658;
+}
+.add-pharmacy {
+    background: #D4FECD;
+}
+.add-lab-test{
+    background: #AAFD9B;
+}
+label {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+input,
+button,
+textarea {
+    border-radius: 15px;
+    border-width: 0.5px;
+    padding-left: .7em;
+}
+textarea {
+    border-radius: 30px;
+}
+button {
+    width: 100%;
+    font-size: 20px;
+    margin-top: 1em;
+    padding: 5px 0;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+button:hover {
+    border: 1px solid black;
+}

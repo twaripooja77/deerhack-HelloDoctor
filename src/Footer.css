@@ -1,0 +1,35 @@
+footer {
+    background: url('./images/background.png') top 0 left 0;
+    position: relative;
+    padding: 2em 0;
+    overflow: hidden;
+    text-align: center;
+}
+.half-ellipse {
+    background: #B1FAD7;
+    position: absolute;
+    width: 146px;
+    height: 122px;
+    border-radius: 50%;
+    top: -40%;
+    left: 5%;
+}
+footer li {
+    list-style-type: none;
+    border-right: 1px solid black;
+    padding: 0 1em;
+}
+footer li:last-child {
+    border-right-style: none;
+}
+footer a {
+    text-decoration: none;
+    color: black;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+footer ul {
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,43 @@
+.specialties-container {
+    background: #999999;
+}
+.specialties-row-text > * {
+    color: white;
+    text-decoration: none;
+    margin: 1.7rem;
+    vertical-align: baseline;
+}
+.specialties-row-text,
+.specialty > div{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.specialties-row-text:hover {
+    text-decoration: underline;
+}
+.specialties-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.specialty {
+    width: 27%;
+    background-color: #f2f2f2;
+    padding: 1em;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.specialty:hover {
+    text-decoration: underline;
+}
+.specialty h4 {
+    margin-top: 0.3em;
+}
+.rightArrow {
+    width: 1.5em;
+    height: 1.5em;
+}
+.specialty > img {
+    vertical-align: middle;
+}

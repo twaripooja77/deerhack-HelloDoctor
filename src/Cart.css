@@ -1,0 +1,25 @@
+body {
+    padding: 1em 3em;
+}
+button {
+    cursor: pointer; 
+}
+.medName {
+    color: #116402;
+}
+.cart-remove {
+    cursor: pointer;
+    background-color: #FF5555;
+    border-radius: 5px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+tr {
+    border-bottom: 2px solid black;
+}
+th {
+    text-align: left;
+}
+
