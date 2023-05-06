@@ -27,10 +27,12 @@ export default function MedicineList() {
               med_price={medicine.data.med_price}
               med_photo={medicine.data.med_photo}
               
+              
               />
+             
             ))}
           
-              
+           
           </>
       )
 }

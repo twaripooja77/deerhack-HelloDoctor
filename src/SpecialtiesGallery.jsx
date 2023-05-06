@@ -6,8 +6,7 @@ import imgDentist from './images/specialties-icons/dentist.png'
 import imgGeneral from './images/specialties-icons/general.png'
 import imgOrtho from './images/specialties-icons/ortho.png'
 import imgGyno from './images/specialties-icons/gyno.png'
-import { Link } from 'react-router-dom';
-import Doctors from './Doctors'
+
 
 export default function() {
     return (

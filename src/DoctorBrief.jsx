@@ -3,6 +3,13 @@ import placeholderPhoto from './images/placeholder-photo.png'
 import hospitalIcon from './images/icon-hospital.png'
 
 export default function DoctorBrief({drPhoto=placeholderPhoto, drName='John doe', drProfession, drWorkplace, drExperience, drDescription, drSatisfaction='-', drCharge}) {
+    const appointment=()=>{
+        const text=true;
+        if(text == true){
+    
+        }
+    }
+    
     return (
         <div className="drBrief">
             <div className="drPhoto">
